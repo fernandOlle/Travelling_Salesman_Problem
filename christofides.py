@@ -20,8 +20,8 @@ def tsp(data):
             length += G[current][v]
             current = v
     path.append(path[0])
-    print(""tempo: %s"%(time.time() - start_time))
-    print("Result length of the path: ", length)
+    print("tempo: %s"%(time.time() - start_time))
+    print("result: ", length)
     return length, path
 
 def get_length(x1, y1, x2, y2):
@@ -139,4 +139,9 @@ def remove_edge_from_matchedMST(MatchedMST, v1, v2):
             del MatchedMST[i]
     return MatchedMST
 
-tsp( loadtxt('tsp_data/tsp4_7013.txt', dtype=int) )
+# tsp( loadtxt('tsp_data/tsp1_253.txt', dtype=int) )
+# tsp( loadtxt('tsp_data/tsp2_1248.txt', dtype=int) )
+# tsp( loadtxt('tsp_data/tsp3_1194.txt', dtype=int) )
+# tsp( loadtxt('tsp_data/tsp4_7013.txt', dtype=int) )
+tsp( loadtxt('tsp_data/tsp5_27603.txt', dtype=int) )
+

@@ -24,6 +24,10 @@ def travellingSalesmanProblem(graph, s):
     return min_path
  
 if __name__ == "__main__":
+    # graphMatrix = loadtxt('tsp_data/tsp1_253.txt', dtype=int)
+    # graphMatrix = loadtxt('tsp_data/tsp2_1248.txt', dtype=int)
     graphMatrix = loadtxt('tsp_data/tsp3_1194.txt', dtype=int)
+    # graphMatrix = loadtxt('tsp_data/tsp4_7013.txt', dtype=int)
+    # graphMatrix = loadtxt('tsp_data/tsp5_27603.txt', dtype=int)
     s = 0
     print(travellingSalesmanProblem(graphMatrix, s))
