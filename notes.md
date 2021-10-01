@@ -9,6 +9,9 @@
     tempo: 11.50251293182373
       result: 253
 
+    - average time: 11.8
+    - result: 253
+
 ### approximated:
 
     tempo: 0.0012979507446289062
@@ -17,10 +20,14 @@
     tempo: 0.0016107559204101562
     tempo: 0.001249551773071289
       result: 258.2483626823208
-      result:  258.2483626823208
+      result: 258.2483626823208
       result: 278.0343036508947
-      result:  258.2483626823208
-      result:  258.2483626823208
+      result: 258.2483626823208
+      result: 258.2483626823208
+
+    - average time: 0.0014
+    - average result: 258.2
+    - correct result: 253
 
 ## second graph:
 
@@ -32,6 +39,9 @@
     tempo: 0.0004687309265136719
     tempo: 0.0004458427429199219
       result: 1248
+
+    - average time: 0.0004
+    - result: 1248
 
 ### approximated:
 
@@ -45,6 +55,10 @@
       result:  1288.5255708711063
       result:  1288.5255708711063
       result:  1288.5255708711063
+
+    - average time: 0.0004
+    - average result: 1288.5
+    - correct result: 1248
 
 ## thrid graph:
 
@@ -65,6 +79,10 @@
       result:  1021.4139895309911
       result:  998.0149844366514
 
+    - average time: 0.0022
+    - average result: 998
+    - correct result: 1194
+
 ## forth graph:
 
 ### exact:
@@ -84,6 +102,10 @@
       result: 8037.613032078778
       result: 8138.153780578992
 
+    - average time: 0.019
+    - average result: 8037.6
+    - correct result: 7013
+
 ## fifth graph:
 
 ### exact:
@@ -102,3 +124,7 @@
       result:  27073.772557215743
       result:  27073.772557215743
       result:  27073.772557215743
+
+    - average time: 0.008
+    - average result: 27073.7
+    - correct result: 27603
